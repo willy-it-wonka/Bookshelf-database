@@ -1,0 +1,170 @@
+[
+  {
+    "book_id": 1,
+    "category": "IT"
+  },
+  {
+    "book_id": 2,
+    "category": "PSYCHOLOGY"
+  },
+  {
+    "book_id": 2,
+    "category": "BUSINESS"
+  },
+  {
+    "book_id": 2,
+    "category": "PHILOSOPHY"
+  },
+  {
+    "book_id": 2,
+    "category": "SELF_IMPROVEMENT"
+  },
+  {
+    "book_id": 3,
+    "category": "FANTASY"
+  },
+  {
+    "book_id": 3,
+    "category": "SCIENCE_FICTION"
+  },
+  {
+    "book_id": 4,
+    "category": "IT"
+  },
+  {
+    "book_id": 5,
+    "category": "PSYCHOLOGY"
+  },
+  {
+    "book_id": 5,
+    "category": "PHILOSOPHY"
+  },
+  {
+    "book_id": 5,
+    "category": "SELF_IMPROVEMENT"
+  },
+  {
+    "book_id": 6,
+    "category": "PSYCHOLOGY"
+  },
+  {
+    "book_id": 6,
+    "category": "HISTORY"
+  },
+  {
+    "book_id": 6,
+    "category": "PHILOSOPHY"
+  },
+  {
+    "book_id": 6,
+    "category": "SELF_IMPROVEMENT"
+  },
+  {
+    "book_id": 7,
+    "category": "SCIENCE_FICTION"
+  },
+  {
+    "book_id": 8,
+    "category": "PHILOSOPHY"
+  },
+  {
+    "book_id": 8,
+    "category": "SCIENCE_FICTION"
+  },
+  {
+    "book_id": 9,
+    "category": "FANTASY"
+  },
+  {
+    "book_id": 10,
+    "category": "FANTASY"
+  },
+  {
+    "book_id": 10,
+    "category": "TRAGEDY"
+  },
+  {
+    "book_id": 11,
+    "category": "BIOGRAPHY"
+  },
+  {
+    "book_id": 11,
+    "category": "POLITICS"
+  },
+  {
+    "book_id": 11,
+    "category": "HISTORY"
+  },
+  {
+    "book_id": 12,
+    "category": "POLITICS"
+  },
+  {
+    "book_id": 12,
+    "category": "HISTORY"
+  },
+  {
+    "book_id": 13,
+    "category": "IT"
+  },
+  {
+    "book_id": 14,
+    "category": "POLITICS"
+  },
+  {
+    "book_id": 14,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "book_id": 14,
+    "category": "INTERNATIONAL_RELATIONS"
+  },
+  {
+    "book_id": 15,
+    "category": "PHILOSOPHY"
+  },
+  {
+    "book_id": 15,
+    "category": "SELF_IMPROVEMENT"
+  },
+  {
+    "book_id": 16,
+    "category": "PSYCHOLOGY"
+  },
+  {
+    "book_id": 16,
+    "category": "BUSINESS"
+  },
+  {
+    "book_id": 16,
+    "category": "SELF_IMPROVEMENT"
+  },
+  {
+    "book_id": 17,
+    "category": "POLITICS"
+  },
+  {
+    "book_id": 17,
+    "category": "HISTORY"
+  },
+  {
+    "book_id": 18,
+    "category": "IT"
+  },
+  {
+    "book_id": 19,
+    "category": "FANTASY"
+  },
+  {
+    "book_id": 20,
+    "category": "FANTASY"
+  },
+  {
+    "book_id": 21,
+    "category": "ROMANCE"
+  },
+  {
+    "book_id": 21,
+    "category": "DRAMA"
+  }
+]

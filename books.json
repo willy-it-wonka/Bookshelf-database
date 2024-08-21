@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "author": "Robert C. Martin",
+    "created_date": "2024-07-04 19:00:28.000000",
+    "last_modified_date": "2024-07-08 22:05:54.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/83000/83492/352x500.jpg",
+    "status": "READING",
+    "title": "Czysty kod",
+    "user_id": 2
+  },
+  {
+    "id": 2,
+    "author": "Stephen R. Covey",
+    "created_date": "2024-07-04 19:01:13.000000",
+    "last_modified_date": "2024-07-09 13:04:30.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/0/455/352x500.jpg",
+    "status": "READ",
+    "title": "7 nawyków skutecznego działania ",
+    "user_id": 2
+  },
+  {
+    "id": 3,
+    "author": "Frank Herbert",
+    "created_date": "2024-07-04 19:02:10.000000",
+    "last_modified_date": "2024-07-09 13:05:48.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/4942000/4942534/1130750-352x500.jpg",
+    "status": "READ",
+    "title": "Diuna",
+    "user_id": 2
+  },
+  {
+    "id": 4,
+    "author": "Aditya Bhargava",
+    "created_date": "2024-07-04 19:02:45.000000",
+    "last_modified_date": "2024-07-09 13:06:15.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/4819000/4819674/774844-352x500.jpg",
+    "status": "WAITING",
+    "title": "Algorytmy Ilustrowany przewodnik ",
+    "user_id": 2
+  },
+  {
+    "id": 5,
+    "author": "Erving Goffman",
+    "created_date": "2024-07-04 19:03:07.000000",
+    "last_modified_date": "2024-07-09 13:06:57.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/4937000/4937938/839176-352x500.jpg",
+    "status": "READ",
+    "title": "Człowiek w teatrze życia codziennego",
+    "user_id": 2
+  },
+  {
+    "id": 6,
+    "author": "Viktor E. Frankl",
+    "created_date": "2024-07-04 19:03:38.000000",
+    "last_modified_date": "2024-07-09 13:07:34.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/4924000/4924482/809224-352x500.jpg",
+    "status": "READ",
+    "title": "Człowiek w poszukiwaniu sensu",
+    "user_id": 2
+  },
+  {
+    "id": 7,
+    "author": "Stanisław Lem",
+    "created_date": "2024-07-04 19:04:44.000000",
+    "last_modified_date": "2024-07-09 13:09:38.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/133000/133717/352x500.jpg",
+    "status": "READING",
+    "title": "Solaris",
+    "user_id": 2
+  },
+  {
+    "id": 8,
+    "author": "Stanisław Lem",
+    "created_date": "2024-07-04 19:05:45.000000",
+    "last_modified_date": "2024-07-09 13:09:58.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/270000/270528/424843-352x500.jpg",
+    "status": "READ",
+    "title": "Niezwyciężony",
+    "user_id": 2
+  },
+  {
+    "id": 9,
+    "author": "Robert M. Wegner",
+    "created_date": "2024-07-04 19:06:38.000000",
+    "last_modified_date": "2024-07-09 13:10:16.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/4368000/4368669/1079406-352x500.jpg",
+    "status": "READ",
+    "title": "Każde martwe marzenie",
+    "user_id": 2
+  },
+  {
+    "id": 10,
+    "author": "George R.R. Martin",
+    "created_date": "2024-07-04 19:08:02.000000",
+    "last_modified_date": "2024-07-09 13:10:40.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/166000/166640/157958-352x500.jpg",
+    "status": "WAITING",
+    "title": "The Winds of Winter",
+    "user_id": 2
+  },
+  {
+    "id": 11,
+    "author": "Adrian Goldsworthy",
+    "created_date": "2024-07-04 19:15:57.000000",
+    "last_modified_date": "2024-07-09 13:11:06.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/4870000/4870243/703843-352x500.jpg",
+    "status": "WAITING",
+    "title": "Cezar. Życie giganta",
+    "user_id": 2
+  },
+  {
+    "id": 12,
+    "author": "Anthony Everitt",
+    "created_date": "2024-07-04 19:16:15.000000",
+    "last_modified_date": "2024-07-09 13:11:19.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/4811000/4811401/606020-352x500.jpg",
+    "status": "WAITING",
+    "title": "Chwała Aten. Dzieje najwspanialszej cywilizacji na świecie",
+    "user_id": 2
+  },
+  {
+    "id": 13,
+    "author": "Cay S. Horstmann",
+    "created_date": "2024-07-04 19:19:17.000000",
+    "last_modified_date": "2024-07-09 13:11:39.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/4946000/4946366/856422-352x500.jpg",
+    "status": "READING",
+    "title": "Java. Podstawy. Wydanie XI",
+    "user_id": 2
+  },
+  {
+    "id": 14,
+    "author": "Jacek Bartosiak",
+    "created_date": "2024-07-04 19:19:59.000000",
+    "last_modified_date": "2024-07-09 13:12:07.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/4849000/4849733/664744-352x500.jpg",
+    "status": "WAITING",
+    "title": "Rzeczpospolita między lądem a morzem. O wojnie i pokoju ",
+    "user_id": 2
+  },
+  {
+    "id": 15,
+    "author": "Marek Aureliusz",
+    "created_date": "2024-07-04 19:22:15.000000",
+    "last_modified_date": "2024-07-09 13:15:08.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/5085000/5085828/1098688-352x500.jpg",
+    "status": "READING",
+    "title": "Rozmyślania",
+    "user_id": 2
+  },
+  {
+    "id": 16,
+    "author": "Allan Pease, Barbara Pease",
+    "created_date": "2024-07-04 19:24:31.000000",
+    "last_modified_date": "2024-07-09 13:14:48.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/47000/47137/352x500.jpg",
+    "status": "READ",
+    "title": "Mowa ciała ",
+    "user_id": 2
+  },
+  {
+    "id": 17,
+    "author": "Mary Winifred Beard",
+    "created_date": "2024-07-04 19:25:02.000000",
+    "last_modified_date": "2024-07-09 13:14:29.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/3960000/3960938/557289-352x500.jpg",
+    "status": "WAITING",
+    "title": "SPQR. Historia starożytnego Rzymu ",
+    "user_id": 2
+  },
+  {
+    "id": 18,
+    "author": "Bruce Eckel",
+    "created_date": "2024-07-04 19:27:21.000000",
+    "last_modified_date": "2024-07-09 13:12:47.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/51000/51620/352x500.jpg",
+    "status": "WAITING",
+    "title": "Thinking in Java",
+    "user_id": 2
+  },
+  {
+    "id": 19,
+    "author": "George R.R. Martin",
+    "created_date": "2024-07-04 19:28:37.000000",
+    "last_modified_date": "2024-07-09 13:12:34.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/5114000/5114422/1159927-352x500.jpg",
+    "status": "READ",
+    "title": "Gra o tron",
+    "user_id": 2
+  },
+  {
+    "id": 20,
+    "author": "George R.R. Martin",
+    "created_date": "2024-07-04 19:39:43.000000",
+    "last_modified_date": "2024-07-09 13:12:17.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/5118000/5118310/1158027-352x500.jpg",
+    "status": "READ",
+    "title": "Starcie królów",
+    "user_id": 2
+  },
+  {
+    "id": 21,
+    "author": "Aleksander Dumas",
+    "created_date": "2024-07-04 19:40:32.000000",
+    "last_modified_date": "2024-07-09 13:14:01.000000",
+    "link_to_cover": "https://s.lubimyczytac.pl/upload/books/5066000/5066215/1066351-352x500.jpg",
+    "status": "READ",
+    "title": "Hrabia Monte Christo",
+    "user_id": 2
+  }
+]
