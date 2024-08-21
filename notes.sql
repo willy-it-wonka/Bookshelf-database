@@ -1,0 +1,28 @@
+USE ebdb; -- Rename it to suit your database schema.
+
+SET @json = '
+[
+    {
+        "id" : 1,
+        "content" : "Notatki.\\nOpracowania.\\nCytaty.\\n\\n\\nCzym jest Lorem Ipsum?\\nLorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker.",
+        "book_id" : 1
+    },
+    {
+        "id" : 2,
+        "content" : "Notatki.\\nOpracowania.\\nCytaty.\\n\\nLorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus bonorum et malorum) napisanego w 45 p.n.e.",
+        "book_id" : 2
+    },
+    {
+        "id" : 3,
+        "content" : "Notatki.\\nOpracowania.\\nCytaty.",
+        "book_id" : 3
+    }
+]
+';
+
+INSERT INTO notes (id, content, book_id)
+SELECT 
+    JSON_UNQUOTE(JSON_EXTRACT(json.value, '$.id')) AS id,
+    JSON_UNQUOTE(JSON_EXTRACT(json.value, '$.content')) AS content,
+    JSON_UNQUOTE(JSON_EXTRACT(json.value, '$.book_id')) AS book_id
+FROM JSON_TABLE(@json, '$[*]' COLUMNS (value JSON PATH '$')) AS json;
