@@ -15,3 +15,4 @@ with open('book_categories.json', 'r+') as file:
 
     file.seek(0) # Move to the beginning of the file to overwrite it.
     json.dump(data, file, indent=2) # Save the updated data back to the file.
+    file.truncate()
