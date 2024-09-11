@@ -6,7 +6,8 @@ Example data for the database for the [Bookshelf](https://github.com/willy-it-wo
 - On localhost, all you need to do is import JSON files into the tables. For RDS, you need to use SQL scripts.
 - On localhost you may fail to import the `book_categories.json` due to the lack of a primary key column, then use SQL script.
 - `notes.sql` already contains JSON code due to differences with `\n` - for proper import must be `\n` for the JSON file and `\\n` for the SQL script.
-- If you want to use this data for more users, use Python scripts to automatically modify the JSON files. 
+- If you want to use this data for more users, use Python scripts to automatically modify the JSON files.\
+  Just change the values of the variables at the beginning of the scripts.
 </br></br>
 
 ## Change RDS settings
@@ -14,7 +15,7 @@ To connect to your database in Amazon Relational Database Service, for example t
 1. RDS → Databases → identifier-of-your-database\
    In the „Connectivity & security” section, in „Security”, in „VPC security groups”, select active group.\
    In the „Security group ID” column, select active group.\
-   In the „Inbound rules” section select „Edit inbound rules”, add new rule: type – Custom TCP, source – Anywhere-IPv4, save changes.
+   In the „Inbound rules” section, select „Edit inbound rules”, add new rule: type – Custom TCP, source – Anywhere-IPv4. Save changes.
 2. RDS → Databases → identifier-of-your-database\
    Select „Modify”.\
    In the „Connectivity” section, expand „Additional configuration”.\
