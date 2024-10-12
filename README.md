@@ -5,7 +5,7 @@ Example data for the database for the [Bookshelf](https://github.com/willy-it-wo
 ## Practical tips
 - On localhost, all you need to do is import JSON files into the tables. For RDS, you need to use SQL scripts.
 - On localhost you may fail to import the `book_categories.json` due to the lack of a primary key column, then use SQL script.
-- `notes.sql` already contains JSON code due to differences with `\n` - for proper import must be `\n` for the JSON file and `\\n` for the SQL script.
+- Notice the comment in the `notes.py` file. Follow it depending on whether you use `notes.json` for import or in SQL script.
 - If you want to use this data for more users, use Python scripts to automatically modify the JSON files.\
   Just change the values of the variables at the beginning of the scripts.
 </br></br>
