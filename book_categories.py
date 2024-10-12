@@ -13,6 +13,6 @@ with open('book_categories.json', 'r+') as file:
             new_book_id += 1
         category['book_id'] = new_book_id - 1 # Keep the same book_id for the same book.
 
-    file.seek(0) # Move to the beginning of the file to overwrite it.
-    json.dump(data, file, indent=2) # Save the updated data back to the file.
+    file.seek(0)
+    json.dump(data, file, indent=2)
     file.truncate()
